@@ -39,3 +39,13 @@
         "goldfish" (println "I have a goldfish")
     )
 )
+
+(defn CondCond
+    [amount]
+    (cond
+        (<= amount 10) (println "Few")
+        (<= amount 100) (println "Several")
+        (<= amount 1000) (println "Many")
+        :else (println "Loads")
+    )
+)
