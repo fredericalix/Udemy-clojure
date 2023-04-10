@@ -29,3 +29,13 @@
         (println "False")
     )
 )
+
+(defn CondCase
+    [pet]
+    (println "\nCondCase:")
+    (case pet
+        "cat" (println "I have a cat")
+        "dog" (println "I have a dog")
+        "goldfish" (println "I have a goldfish")
+    )
+)
