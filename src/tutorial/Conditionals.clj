@@ -20,3 +20,12 @@
             (println "Second statement of the second"))
     )
 )
+
+(defn CondNestedIf
+    [x y]
+    (println "\nNestedIf:")
+    (if (and (= x 5) (or (= 2 y) (not true)))
+        (println "True")
+        (println "False")
+    )
+)
